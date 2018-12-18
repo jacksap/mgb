@@ -9,7 +9,7 @@ const NavBar = (props) => {
         <div>MERCH</div>
         <div>EVENTS</div>
     </div>
-    )
+    );
 }
 
 
