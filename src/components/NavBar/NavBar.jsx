@@ -7,7 +7,8 @@ const NavBar = (props) => {
         <div>HOME</div>
         <div>MUSIC</div>
         <div>MERCH</div>
-        <div>EVENTS</div>
+        <div>SHOWS</div>
+        <div>GALLERY</div>
     </div>
     );
 }
