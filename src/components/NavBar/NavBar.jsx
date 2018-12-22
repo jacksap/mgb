@@ -10,7 +10,7 @@ import {
     BrowserRouter as Router,
     Route,
     Link
-  } from 'react-router-dom';
+} from 'react-router-dom';
 
 const NavBar = (props) => {
     return(
@@ -23,7 +23,7 @@ const NavBar = (props) => {
           <Link to="/merch">MERCH</Link>{' '}
           <Link to="/gallery">GALLERY</Link>{' '}
         </nav>
-          <Route exact path='/' component={Home} />
+          <Route exact path='/' component={App} />
           <Route path='/music' render={Music} />
           <Route path='/shows' render={Shows} />
           <Route path='/merch' render={Merch} />
