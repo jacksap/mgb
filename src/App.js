@@ -7,6 +7,10 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
+        <footer>
+          Contact Us
+          {/* Should this be a component, if I am asking it probably should be. */}
+        </footer>
       </div>
     );
   }
