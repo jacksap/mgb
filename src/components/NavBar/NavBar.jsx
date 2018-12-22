@@ -6,6 +6,12 @@ import Shows from '../Shows/Shows'
 import Merch from '../Merch/Merch'
 import Gallery from '../Gallery/Gallery'
 
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+  } from 'react-router-dom';
+
 const NavBar = (props) => {
     return(
         <Router>
