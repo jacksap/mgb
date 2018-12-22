@@ -5,6 +5,7 @@ import Music from '../Music/Music'
 import Shows from '../Shows/Shows'
 import Merch from '../Merch/Merch'
 import Gallery from '../Gallery/Gallery'
+import Home from '../Home/Home'
 
 import {
     BrowserRouter as Router,
@@ -23,7 +24,7 @@ const NavBar = (props) => {
           <Link to="/merch">MERCH</Link>{' '}
           <Link to="/gallery">GALLERY</Link>{' '}
         </nav>
-          <Route exact path='/' component={App} />
+          <Route exact path='/' component={Home} />
           <Route path='/music' render={Music} />
           <Route path='/shows' render={Shows} />
           <Route path='/merch' render={Merch} />
