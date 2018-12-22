@@ -9,5 +9,4 @@ const Merch = (props) => {
     );
 }
 
-
 export default Merch;
