@@ -5,6 +5,7 @@ const Contact = (props) => {
     return(
     <div>
         <div>Contact Us</div>
+        {/* Do I want a submit here? - Ask Kevin */}
     </div>
     );
 }
