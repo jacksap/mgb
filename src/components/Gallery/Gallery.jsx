@@ -5,7 +5,7 @@ const Gallery = (props) => {
     return(
     <div>
         <div>Gallery COMPONENT</div>
-        <img src='./static/images/flyers/newbeatshowcase011917.png'></img>
+        <img alt='poster' src='./static/images/flyers/newbeatshowcase011917.png'></img>
         {/* I can map every image via a backend Image URL model? Maybe a gallery style... */}
     </div>
     );
