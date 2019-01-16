@@ -5,6 +5,10 @@ const Contact = (props) => {
     return(
     <div>
         <div>Contact Us</div>
+        {/* mailto */}
+        {/* insta */}
+        {/* facebook */}
+        {/* bandcamp */}
         {/* Do I want a submit here? - Ask Kevin */}
     </div>
     );
