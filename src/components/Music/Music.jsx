@@ -5,7 +5,6 @@ const Music = (props) => {
     return(
     <div>
         <div>Music COMPONENT</div>
-        {/* should I play here directly or with bandcamp? */}
     </div>
     );
 }
