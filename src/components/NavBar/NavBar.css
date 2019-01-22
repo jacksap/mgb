@@ -13,8 +13,8 @@
     margin: 0;
     line-height: 50px;
     font-family: 'Spectral', serif;
-    margin-right: 5%;
 }
+
 .main-nav img {
     width: 110px;
     height: auto;
@@ -25,4 +25,10 @@
     display: block;
     padding: 10px;
     text-decoration: none;
+    margin-top: 22px;
+}
+
+.main-nav a:first-child {
+    margin-right: 60%;
+    margin-top: none;
 }
