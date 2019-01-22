@@ -18,11 +18,13 @@ const NavBar = (props) => {
         <Router>
         <div className="NavBar">
         <nav>
-          <Link to="/"><img alt='mgb logo' src='./static/images/mygirlfriendberulogo_transparent.png'></img></Link>{' '}
-          <Link to="/music">MUSIC</Link>
-          <Link to="/shows">SHOWS</Link>
-          <Link to="/merch">MERCH</Link>{' '}
-          <Link to="/gallery">GALLERY</Link>{' '}
+          <ul className="main-nav">
+            <Link className="logo" to="/"><img alt='mgb logo' src='./static/images/mygirlfriendberulogo_transparent.png'></img></Link>{' '}
+            <Link to="/music">MUSIC</Link>
+            <Link to="/shows">SHOWS</Link>
+            <Link to="/merch">MERCH</Link>{' '}
+            <Link to="/gallery">GALLERY</Link>{' '}
+          </ul>
         </nav>
           <Route exact path='/' component={Home} />
           <Route path='/music' render={Music} />
