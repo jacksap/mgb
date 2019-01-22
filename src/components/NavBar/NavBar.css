@@ -12,7 +12,8 @@
     list-style: none;
     margin: 0;
     line-height: 50px;
-    font-family: 'Spectral', serif;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
 }
 
 .main-nav img {
@@ -25,10 +26,8 @@
     display: block;
     padding: 10px;
     text-decoration: none;
-    margin-top: 22px;
 }
 
 .main-nav a:first-child {
     margin-right: 60%;
-    margin-top: none;
 }
